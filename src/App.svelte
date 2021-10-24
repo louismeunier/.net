@@ -40,7 +40,7 @@
 
 	main {
 		display: grid;
-		grid-template-rows: max-content 3rem repeat(2, max-content);
+		grid-template-rows: max-content 3rem repeat(3, max-content);
 		grid-template-columns: 1fr;
 		justify-items: center;
 		justify-content: center;
@@ -75,7 +75,7 @@
 	}
 
 	hr {
-		width: 25rem;
+		width: 15vw;
 		box-shadow: 20px black;
 	}
 </style>
