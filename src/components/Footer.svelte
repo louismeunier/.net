@@ -1,6 +1,7 @@
 <style>
  h3 {
      font-size: 0.8em;
+     color: var(--silver);
      text-align: center;
  }
  div {
