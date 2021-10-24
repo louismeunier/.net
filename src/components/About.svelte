@@ -9,14 +9,16 @@
 
    h2, p {
        font-size: 1.1em;
+        margin-right: 3rem;
+        margin-left: 3rem;
        text-align: center;
    }
 
    h2 {
-       font-size: 1.3em;
+       font-size: 1.5em;
        /* text-decoration: underline; */
         font-weight: 900;
-       color: var(--silver);
+       color: var(--pale-yellow);
    }
 
   
@@ -41,6 +43,7 @@
     <h2>
         Hello!
     </h2>
-    <p>I'm an 18 year old high school senior and hobbyist software developer from Upstate New York.</p>
-    <p>Welcome to my website!</p>
+    <p>I'm an 18 year old high school senior and amateur software developer from Upstate New York.</p>
+    <p>I love creating software to explore data and express trends, and while I primarily work on web development, am very open to trying new directions and technologies.</p>
+    <p>Welcome to my (WIP) website!</p>
 </div>
