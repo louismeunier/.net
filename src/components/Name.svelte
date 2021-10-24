@@ -9,7 +9,7 @@
 <style>
   div {
     text-align: left;
-    color: var(--dark-purple);
+    color: var(--light-purple);
     display: flex;
     flex-direction: row;
     /* transform: translateY(50vh); */

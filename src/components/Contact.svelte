@@ -24,21 +24,30 @@
 
   :global(.contacts > * > svg):hover {
     height: 90%;
+    cursor: pointer;
   }
 </style>
 
 <div class="contacts">
-  <a rel="noreferrer" href="https://github.com/louismeunier" target="_blank">
+  <div
+    on:click={() => {
+      location.href = "https://github.com/louismeunier";
+    }}
+  >
     <Github />
-  </a>
-  <a
-    rel="noreferrer"
-    href="https://www.linkedin.com/in/louis-meunier-112b55203/"
-    target="_blank"
+  </div>
+  <div
+    on:click={() => {
+      location.href = "https://www.linkedin.com/in/louis-meunier-112b55203/";
+    }}
   >
     <Linkedin />
-  </a>
-  <a rel="noreferrer" href="mailto:louismeunier123@gmail.com" target="_blank">
+  </div>
+  <div
+    on:click={() => {
+      location.href = "mailto:louismeunier123@gmail.com";
+    }}
+  >
     <Email />
-  </a>
+  </div>
 </div>
