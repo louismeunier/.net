@@ -7,6 +7,7 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
+    "prepare": "husky install",
     "pretty": "prettier --write --plugin-search-dir=. './**/*.svelte'"
   },
   "devDependencies": {
@@ -14,6 +15,7 @@
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
     "@tsconfig/svelte": "^2.0.0",
+    "husky": "^7.0.4",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
     "rollup": "^2.3.4",
