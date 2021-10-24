@@ -1,12 +1,13 @@
 <script lang="ts">
+    import Tech from "./Tech.svelte";
+
     export let name:string;
     export let description:string;
     export let source:string;
     export let live:string|null = null;
     export let technologies:string[];
-
+    
     let overlay;
-
 </script>
 
 <style>
@@ -52,7 +53,8 @@
 </style>
 
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-<div class="project" on:mouseover={()=>{overlay.style.display = "grid"}} on:mouseout={()=>{overlay.style.display = "none"}}>
+<!-- <div class="project" on:mouseover={()=>{overlay.style.display = "grid"}} on:mouseout={()=>{overlay.style.display = "none"}}> -->
+    <div class="project">
     <!-- <div class="overlay" bind:this={overlay} on:click={()=>{}}>
         READ MORE
     </div> -->
@@ -61,7 +63,7 @@
     </h3>
     <div class="tech">
         {#each technologies as tech}
-            <i class={`devicon-${tech}-plain`}></i>
+            <Tech name={tech}/>
         {/each}
     </div>
     <p>
