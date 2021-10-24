@@ -22,7 +22,7 @@ export const projects:Project[] = [
         name: "college email statistics",
         description: "Automatically generated statistics about emails colleges have sent to me.",
         source: "https://github.com/louismeunier/college-emails",
-        live: "college-emails.louismeunier.net",
+        live: "https://college-emails.louismeunier.net",
         technologies: [
             "svelte",
             "nodejs",
