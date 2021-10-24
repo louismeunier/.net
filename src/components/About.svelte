@@ -13,8 +13,9 @@
    }
 
    h2 {
-       font-size: 1.8em;
-       text-decoration: underline;
+       font-size: 1.3em;
+       /* text-decoration: underline; */
+        font-weight: 900;
        color: var(--silver);
    }
 
