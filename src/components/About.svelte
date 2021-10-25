@@ -52,8 +52,8 @@
     >👋</p> -->
   <h2>Hello!</h2>
   <p>
-    I'm an 18 year old high school senior, amateur software developer, and avid speedcuber from
-    Upstate New York.
+    I'm an 18 year old high school senior, amateur software developer, and avid
+    speedcuber from Upstate New York.
   </p>
   <p>
     I love creating software to explore data and express trends, and while I

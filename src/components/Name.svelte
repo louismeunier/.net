@@ -13,8 +13,13 @@
     display: flex;
     flex-direction: row;
     /* transform: translateY(50vh); */
-    /* animation: 2s 1 ease-in-out 2s move; */
-    /* background-color: var(--silver); */
+    /* font-size: 3em; */
+    /* animation-name: move; */
+    /* animation-delay: 1.8s; */
+    /* animation-duration: 1.4s; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: 1; */
+    /* animation-fill-mode: forwards; */
   }
 
   .cursor {
@@ -34,6 +39,16 @@
     }
   }
 
+  /* @keyframes move {
+    from {
+      transform: translateY(50vh);
+    }
+    to {
+      transform: translateY(0vh);
+      font-size: 1.3em;
+    }
+  } */
+
   h1 {
     font-size: 2.6em;
     text-shadow: 0.1em 0.1em black;
@@ -42,16 +57,6 @@
   h1:hover {
     cursor: pointer;
     text-shadow: 0.2em 0.2em black;
-  }
-
-  @keyframes move {
-    from {
-      transform: translateY(50vh);
-    }
-
-    to {
-      transform: translateY(0);
-    }
   }
 </style>
 
@@ -68,6 +73,6 @@
     >
       Louis Meunier
     </h1>
-    <h1 class="cursor">|</h1>
   {/if}
+  <h1 class="cursor">|</h1>
 </div>
